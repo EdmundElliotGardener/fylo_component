@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css" />
   <title>Frontend Mentor | Fylo data storage component</title>
-
- 
- 
 </head>
-<body>
-  <section class="header">
-    <section class="one"></section>
-    <section class="two"></section>
 
-    <section class="container">
-    <div class="item1">
-      <img src="images\bg-desktop.png" alt="pic2" />
-    
-  <section class="storage"><p class="font">You’ve used 815 GB of your storage 185 GB Left</p>
-  
- <p  class="sp1"><span> 0 GB</span></p>
-  <p class="sp2">1000 GB</p>
-</div>    
-</section>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<body>
+
+  <div class="background-img">
+    <img src="images\bg-desktop.png" alt="pic2" />
   </div>
+  </div>
+  
+  <section class="container">
+    <div class="item1">
+      <img src="images\logo.svg" />
+      <div class="document">
+      <img src="images\icon-document.svg" />
+      </div>
+      <div class="folder">
+        <img src="images\icon-folder.svg" />
+         </div>
+         <div class="upload">
+          <img src="images\icon-upload.svg" />
+         </div>
+    </div>
+    <div class="item2">
+      
+     <p>
+        <span class="paragraph1">You’ve used </span>
+        <span class="storage-value">815 GB</span> 
+         <span class="paragraph2">of your storage</span>
+            </p>
+    
+    <div class="left storage">
+      <span class="storage-value">0GB</span>
+      <span class="storage-value">1000GB</span>
+      <div class="storage-left">
+        <p><span class="progress">185</span><spann>GB Left</spann></p>
+      </div>
+    </div>
+    </div>
+   
+  </section>
+
 </body>
+
 </html>
