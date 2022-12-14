@@ -97,17 +97,7 @@ body {
   opacity: 0.5;
   border-radius: 10px;
 }
-/* .item2.progress {
-  width: 80%;
-  height: 16px;
-  background: linear-gradient(
-    to right,
-    var(--primary-gradient-1),
-    var(--primary-gradient-2)
-  );
-  border-radius: 1em;
-  position: relative;
-} */
+
 .container5 {
   width: 459;
   height: 20px;
@@ -127,11 +117,8 @@ body {
 }
 .container7 {
   border-radius: 2px;
-  /* background: #0c122c; */
   mix-blend-mode: normal;
   opacity: 0.5;
-  /*  border-radius: 10px; */
-  /*  border: solid #0c122c; */
   display: flex;
   width: 176px;
   height: 48px;
@@ -186,22 +173,17 @@ body {
 }
 .storage-left {
   position: absolute;
-  left: 721px;
-  right: 7.41%;
+  left: 821px;
+  right: 27.41%;
   /*  top: -3px; */
-  bottom: 61.18%;
+  bottom: 60.18%;
   background: #ffffff;
-  /* box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776); */
+  box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776);
   border-radius: 10px 10px 0px 10px;
   height: 20%;
+  width: 15%;
 }
-/* .storage {
-  position: relative;
-  color: #111111;
-  justify-content: space-between;
-  background: red;
-  left: 10%;
-} */
+
 .number {
   position: absolute;
   height: 40px;
@@ -215,6 +197,7 @@ body {
   line-height: 40px;
   text-align: right;
   color: #0c122c;
+  text-align: center;
 }
 
 .mobile-bg img {
@@ -268,12 +251,12 @@ body {
 }
 
 @media only screen and (max-width: 1230px) {
+ 
   .container {
     display: flex;
     flex-direction: column;
     width: 326px;
     height: 213px;
-    
     top: 339px;
     right: 284px;
   }
@@ -315,6 +298,53 @@ body {
  */
   .mobile-bg img {
     display: inline;
-  } 
-  
+  }
+
+  .left {
+    position: relative;
+    left: 321px;
+    right: 10.41%;
+    top: 80%;
+    bottom: 70%;
+    background: #ffffff;
+    /* box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776); */
+    border-radius: 10px 10px 0px 10px;
+    height: 100%;
+    background-origin: padding-box;
+    font-weight: 700;
+    justify-content: space-between;
+    width: 70px;
+  }
+
+  .storage-value1 {
+    color: #dbd9ff;
+    font-weight: 700;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .storage-value2 {
+    color: #dbd9ff;
+    font-weight: 700;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .container5 {
+    width: 459;
+    height: 20px;
+    /* border: 4px solid blue; */
+    border-radius: 25px;
+    background: #0c122c;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 10px;
+  }
+
+  .container6 {
+    background: linear-gradient(90deg, #ffa197 0%, #ff4a95 100%);
+    width: 70%;
+    height: 100%;
+    border-radius: 25px;
+  }
 }
